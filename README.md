@@ -26,15 +26,15 @@ $$f(x_1, x_2) = 8x_1 + 3x_2 - x_1x_2 + x_1^2$$
 
 ## Algoritma Parametreleri
 
-Projede kullanılan hiper-parametreler, deneysel çalışmalar sonucunda yakınsama (convergence) ve çeşitlilik (diversity) dengesi gözetilerek seçilmiştir:
+Projede kullanılan hiper-parametreler, deneysel çalışmalar sonucunda yakınsama ve çeşitlilik dengesi gözetilerek seçilmiştir:
 
 | Parametre | Değer | Açıklama |
 | :--- | :--- | :--- |
 | **Popülasyon Boyutu** | 50 | Genetik çeşitlilik için optimize edildi. |
-| **Nesil Sayısı** | 100 | Kararlı sonuçlar (stability) için seçildi. |
-| **Çaprazlama Oranı** | 0.8 | **Popülasyonun %80'i genetik bilgi takası yapar.** |
+| **Nesil Sayısı** | 100 | Kararlı sonuçlar için seçildi. |
+| **Çaprazlama Oranı** | 0.8 | Popülasyonun %80'i genetik bilgi takası yapar. |
 | **Mutasyon Oranı** | 0.1 | Yerel tuzaklardan kaçış için %10 şans. |
-| **Mutasyon Büyüklüğü** | 0.5 | Gaussian dağılım ile hassas ayar (fine-tuning). |
+| **Mutasyon Büyüklüğü** | 0.5 | Gaussian dağılım ile hassas ayar. |
 | **Elitizm** | 2 | En iyi 2 birey bozulmadan sonraki nesle aktarılır. |
 | **Tolerans (Epsilon)** | 1e-9 | Kayan nokta hatalarını önlemek için. |
 
